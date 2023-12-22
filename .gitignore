@@ -1,0 +1,45 @@
+# Ignore compiled files
+/target/
+
+# Ignore Cargo.lock file
+Cargo.lock
+
+# Ignore generated documentation
+/doc/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore Mac OS system files
+.DS_Store
+
+# Ignore temporary files
+*.swp
+*.bak
+
+# Ignore compiled binaries
+*.rlib
+*.rmeta
+
+# Ignore Rust build artifacts
+/Debug/
+/Release/
+
+# Ignore generated files
+Cargo.toml.orig
+Cargo.toml.swp
+
+# Ignore profiling data
+perf.data*
+*.perf
+
+# Ignore workspace files
+/*.iml
+
+# Ignore log files
+*.log
+
+# Ignore coverage results
+/coverage/
+.cargo/
